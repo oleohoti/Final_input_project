@@ -29,18 +29,11 @@ void PrintArray(string[] array)
     }
     Console.WriteLine($"]");
 }
-Console.WriteLine("Сколько строк вы хотите ввести?(введите целым числом)");
-int length = Convert.ToInt32(Console.ReadLine());
-string[] input = new string[length];
-for (int i = 0; i < length; i++)
-{
-    Console.WriteLine($"Введите {i+1} й ряд символов");
-    input[i] = Console.ReadLine();
-}
+Console.WriteLine("Введите строки через пробел, затем нажмите Enter");
+string[] input = Console.ReadLine().Split();
 PrintArray(input);
 Console.WriteLine($"С каким максимальным числом символов строки вы хотите вывести на экран ?");
 int size = Convert.ToInt32(Console.ReadLine());
 string[] output = OutPut(input,size);
 System.Console.WriteLine($"Строки длина, которых меньше, либо равна {size} символам: ");
 PrintArray(output);
-
