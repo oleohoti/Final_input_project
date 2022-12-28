@@ -9,7 +9,7 @@
 1. Создан репозиторий https://github.com/oleohoti/Final_input_project .
 2. Нарисована Блок-схема.
 
-![Это блок-схема по заданию](%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC.drawio.png)
+![Это блок-схема по заданию](algoritm.jpg)
 
 3. README.md
 4. Программа написана - Example.
